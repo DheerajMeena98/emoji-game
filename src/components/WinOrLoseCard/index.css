@@ -1,0 +1,102 @@
+.win-lose-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 16px;
+  width: 80%;
+  background-color: #9796f0;
+}
+
+.display-result {
+  display: flex !important;
+}
+
+.emoji-game-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-game-won-image {
+  width: 70%;
+  order: -1;
+}
+
+.won-lose-text {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.best-score-text {
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 70%;
+}
+
+.score-text {
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.total-score {
+  font-size: 24px;
+  color: #6a59ff;
+  font-weight: bold;
+}
+
+.play-again-button {
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #ffce27;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-card-container {
+    flex-direction: row;
+    width: 70%;
+    height: 70%;
+    justify-content: space-evenly;
+    padding: 15px;
+  }
+
+  .emoji-game-results-container {
+    margin-right: 30px;
+  }
+
+  .emoji-game-won-image {
+    width: 30%;
+    order: 1;
+  }
+
+  .won-lose-text {
+    font-size: 40px;
+  }
+
+  .best-score-text {
+    font-size: 27px;
+    width: 70%;
+  }
+
+  .score-text {
+    width: 45%;
+    align-self: flex-start;
+  }
+
+  .total-score {
+    font-size: 28px;
+  }
+
+  .play-again-button {
+    margin-right: 35px;
+  }
+}
